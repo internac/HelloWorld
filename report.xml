@@ -1,1 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MyTestSuite" tests="3" failures="1" errors="0" skipped="0" timestamp="2023-07-31T12:34:56">
+  <testcase classname="com.example.MyTestClass" name="testMethod1" time="0.123"/>
+  <testcase classname="com.example.MyTestClass" name="testMethod2" time="0.456">
+    <failure message="Assertion failed">AssertionError: Expected 42, but got 43</failure>
+  </testcase>
+  <testcase classname="com.example.MyTestClass" name="testMethod3" time="0.789"/>
+</testsuite>
 
